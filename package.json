@@ -1,0 +1,33 @@
+{
+  "name": "passwordless-api",
+  "version": "1.0.0",
+  "description": "Demo application for passwordless authentication using Auth0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "node_modules/nodemon/bin/nodemon.js --exec npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhuensch/passwordless-api.git"
+  },
+  "author": "Huensch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhuensch/passwordless-api/issues"
+  },
+  "homepage": "https://github.com/mhuensch/passwordless-api#readme",
+  "dependencies": {
+    "axios": "0.21.1",
+    "cookie-parser": "1.4.5",
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "express-async-errors": "3.1.1",
+    "express-session": "1.17.1",
+    "nedb": "1.8.0",
+    "nodemon": "2.0.7",
+    "socket.io": "3.0.5"
+  }
+}
